@@ -40,12 +40,14 @@ generate_bbox
 ```
 
 ## Demo Data
-Please refer to DOTA and COCO datasets. We also built a demo dataset, you can download it from 
+Please refer to DOTA and COCO datasets. We also built a demo dataset, you can download it from https://zenodo.org/records/19692661?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImNjNjk4OWE2LTdlY2YtNGQ5OC1hYjE2LWE3NzFmNTk5ZjdlZiIsImRhdGEiOnt9LCJyYW5kb20iOiJiOTU1YzFmYzRiNDY3NDQ4N2M5YjdkNTYyN2VjYzIzMCJ9.lwL3NpeeuZv2kjPMDG0araM0qiKKrnZ5DI0l_M0IrOBpPcDkur96vm-LuRg-NivU0Blqu46RoVkbb2qpX6bP7g
 
 ## Usage
 ### Enhance The Class Features
 #### Train VGG
-Actually we already trained the model, if you want to retrain it, just two steps:
+Actually we already trained the model, which can be downloaded in https://zenodo.org/records/19692661?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImNjNjk4OWE2LTdlY2YtNGQ5OC1hYjE2LWE3NzFmNTk5ZjdlZiIsImRhdGEiOnt9LCJyYW5kb20iOiJiOTU1YzFmYzRiNDY3NDQ4N2M5YjdkNTYyN2VjYzIzMCJ9.lwL3NpeeuZv2kjPMDG0araM0qiKKrnZ5DI0l_M0IrOBpPcDkur96vm-LuRg-NivU0Blqu46RoVkbb2qpX6bP7g
+
+If you want to retrain it, just two steps:
 1. Prepare data
 * Download dataset, including images and labels
 * Modify the path of images and labels in vgg-tensorflow-modified/get_features.py
