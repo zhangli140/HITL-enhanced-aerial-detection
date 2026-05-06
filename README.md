@@ -39,13 +39,13 @@ demo
 generate_bbox
 ```
 
-## Demo Data
-Please refer to DOTA and COCO datasets. We also built a demo dataset, you can download it from https://zenodo.org/records/19692661?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImNjNjk4OWE2LTdlY2YtNGQ5OC1hYjE2LWE3NzFmNTk5ZjdlZiIsImRhdGEiOnt9LCJyYW5kb20iOiJiOTU1YzFmYzRiNDY3NDQ4N2M5YjdkNTYyN2VjYzIzMCJ9.lwL3NpeeuZv2kjPMDG0araM0qiKKrnZ5DI0l_M0IrOBpPcDkur96vm-LuRg-NivU0Blqu46RoVkbb2qpX6bP7g
+## Data Set
+Please refer to DOTA and COCO datasets. We also built a demo dataset, you can download it from https://zenodo.org/records/19692661
 
 ## Usage
 ### Enhance The Class Features
 #### Train VGG
-Actually we already trained the model, which can be downloaded in https://zenodo.org/records/19692661?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImNjNjk4OWE2LTdlY2YtNGQ5OC1hYjE2LWE3NzFmNTk5ZjdlZiIsImRhdGEiOnt9LCJyYW5kb20iOiJiOTU1YzFmYzRiNDY3NDQ4N2M5YjdkNTYyN2VjYzIzMCJ9.lwL3NpeeuZv2kjPMDG0araM0qiKKrnZ5DI0l_M0IrOBpPcDkur96vm-LuRg-NivU0Blqu46RoVkbb2qpX6bP7g
+Actually we already trained the model, which can be downloaded in https://zenodo.org/records/19692661
 
 If you want to retrain it, just two steps:
 1. Prepare data
@@ -92,14 +92,16 @@ python stod.py
 5. Copy the data to the input folder for AerialDetection, use it to train and test the results
 
 ## Reference:
-The code if for a paper under review
+If you find this code useful, please consider citing:
 
+**Human-in-the-Loop Collaborative Enhancement for Rotation-Aware Small Object Detection in Aerial Images**, under review for *The Visual Computer*
 ```
-@inproceedings{xxxx,
+@inproceedings{Zhang2026HITL,
     author    = {Qiu, Xingye and Chen, chenhuan and Zhang, Li},
-    title     = {An Aerial Detection System with Human-In-The-Loop},
+    title     = {Human-in-the-Loop Collaborative Enhancement for Rotation-Aware Small Object Detection in Aerial Images},
     booktitle = {The Visual Computer (Under Review)},
-    year      = {2026}
+    year      = {2026},
+    note    = {to appear},
 }
 ```
 ## License:
