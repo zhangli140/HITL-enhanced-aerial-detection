@@ -315,7 +315,7 @@ If you find this code useful, please consider citing:
 @inproceedings{Zhang2026HITL,
     author    = {Qiu, Xingye and Chen, chenhuan and Zhang, Li},
     title     = {Human-in-the-Loop Collaborative Enhancement for Rotation-Aware Small Object Detection in Aerial Images},
-    booktitle = {The Visual Computer (Under Review)},
+    booktitle = {Scientific Reports (Under Review)},
     year      = {2026},
     note    = {to appear},
 }
